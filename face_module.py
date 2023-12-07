@@ -10,7 +10,7 @@ import re
 import smtplib
 
 base = 'https://japanwest.api.cognitive.microsoft.com/face/v1.0'   #API(網址)
-key = '8fc02b711ebb45a69764a84b5e9c969a'    #金鑰
+key = ''    #金鑰
 headers_stream = {} #stream請求標頭
 headers_json = {}   #json請求標頭
 headers = {}        #GET的請求標頭
